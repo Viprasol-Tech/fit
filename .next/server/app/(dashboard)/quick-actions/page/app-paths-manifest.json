@@ -1,0 +1,3 @@
+{
+  "/(dashboard)/quick-actions/page": "app/(dashboard)/quick-actions/page.js"
+}

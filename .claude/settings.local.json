@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(robocopy temp-project . /E /MOVE)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd complete AI-driven content engine with all 10 modules\n\nImplemented features:\n- Hardcoded authentication \\(admin@contentengine.local / admin123\\)\n- Daily Briefing dashboard\n- Trend Radar \\(Google Trends, Reddit, YouTube\\)\n- AI Content Studio \\(Instagram Reels + Carousels\\)\n- Infinite Ideas Engine\n- Content Command Center \\(Calendar\\)\n- News & Research Hub\n- Analytics & Insights\n- Content Pillars Manager\n- Repurpose Engine\n- Quick Actions\n\nTech stack:\n- Next.js 14 with App Router\n- TypeScript\n- Tailwind CSS 4\n- Supabase \\(optional, can work without\\)\n- Claude API integration\n- shadcn/ui components\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
